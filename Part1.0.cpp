@@ -67,7 +67,7 @@ start = std::chrono::system_clock::now();
      
     arr[i]= arr[i]*arr[i];
    // std::cout<<"      "<<std::endl; 
-   // std::cout <<arr[i]<< std::endl;
+   // std::scout <<arr[i]<< std::endl;
     
       } 
       
