@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) //Size of array, number of thread, scheduling p
  {
      
      arr[i]= (rand()%30)+1; 
-    std::cout <<arr[i] << std::endl;
+    //std::cout <<arr[i] << std::endl;
     
      
 
@@ -71,7 +71,7 @@ start = std::chrono::system_clock::now();
     
       } 
       
-     
+   
       
  
     
