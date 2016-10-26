@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) //Size of array, number of thread, scheduling p
 
  
 omp_set_num_threads(threadNum); 
- omp_set_schedule(omp_sched_dynamic, 1000);
+// omp_set_schedule(omp_sched_dynamic, 1000);
  
 
 clock_t begin=clock();
@@ -55,7 +55,7 @@ clock_t begin=clock();
  
  
  
- #pragma omp for schedule(runtime)
+ #pragma omp for schedule(static)
  
  
  for(int i=0; i<N; i++)
