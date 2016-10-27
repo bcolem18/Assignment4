@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) //Size of array, number of thread, scheduling p
 
  
 omp_set_num_threads(threadNum); 
-omp_set_schedule(omp_sched_dynamic, 1);
+omp_set_schedule(omp_sched_dynamic, 1000);
  
 
 std::chrono::time_point<std::chrono::system_clock> start, end;
