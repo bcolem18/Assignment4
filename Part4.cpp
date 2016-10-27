@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) //size of array and num of thread
      arr[i]= (rand()%100)+1; 
     
     
-     std::cout<<arr[i]<<std::endl; 
+     
 
      
      
